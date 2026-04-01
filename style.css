@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #b0d3f6;
+    color: #1e293b;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background: #3b95ef;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0f172a;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+
+section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+
+.skills-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-card {
+    background: #7babeb;
+    padding: 20px;
+    width: 250px;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+}
+
+.tags span {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #e2e8f0;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+
+.project-card,
+.education-card {
+    background: #7babeb;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.project-card:hover,
+.education-card:hover {
+    transform: translateY(-5px);
+}
+
+
+button {
+    margin: 10px 5px 0 0;
+    padding: 10px 20px;
+    border: none;
+    background: #0ea5e9;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.secondary {
+    background: #64748b;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #3b95ef;
+}
+
