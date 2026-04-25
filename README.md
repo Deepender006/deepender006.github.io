@@ -63,7 +63,7 @@ portfolio/
 ## 🎓 Education
 
 - B.Tech CSE – Dronacharya College of Engineering (2024–2028)  
-  CGPA: 7.25
+  CGPA: 7.6
 
 - 12th – Hardayal Public School (2023–2024)  
   Percentage: 72%
